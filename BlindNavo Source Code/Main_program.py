@@ -135,7 +135,7 @@ def main():
     while True:
         Main_Running = True
         while Main_Running:
-            gmaps = googlemaps.Client(key='AIzaSyBfReYXRLdOuFlYBURwaJxpyjuH1jYevP8')
+            gmaps = googlemaps.Client(key='somekey')
             Running = 1
             
             while Running <= 1:
